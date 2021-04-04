@@ -25,6 +25,10 @@ main .title-text {
   transform: rotate(-1deg);
 }
 
+.navbar-expand-lg {
+  background: #ffefae;
+}
+
 @media (max-width: 960px) {
   main .title-text {
     font-size: 65px;
