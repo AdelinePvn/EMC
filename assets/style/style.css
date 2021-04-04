@@ -1,0 +1,52 @@
+main .title-text {
+  font-size: 165px;
+}
+
+.img {
+  max-width: 30%;
+  border-radius: 10px;
+}
+
+.container-custom {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.container-custom p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container-custom img {
+  transition: 0.3s;
+}
+
+.container-custom img:hover {
+  transform: rotate(-1deg);
+}
+
+@media (max-width: 960px) {
+  main .title-text {
+    font-size: 65px;
+  }
+
+  .img {
+    max-width: 50%;
+  }
+
+  .container-custom {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .container-custom p {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 720px) {
+  main .title-text {
+    font-size: 105px;
+  }
+}
