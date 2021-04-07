@@ -29,9 +29,15 @@ main .title-text {
   background: #ffefae;
 }
 
+@media (max-width: 1200px) {
+  main .title-text {
+    font-size: 70px;
+  }
+}
+
 @media (max-width: 960px) {
   main .title-text {
-    font-size: 65px;
+    font-size: 60px;
   }
 
   .img {
