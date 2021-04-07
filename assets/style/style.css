@@ -37,7 +37,7 @@ main .title-text {
 
 @media (max-width: 960px) {
   main .title-text {
-    font-size: 60px;
+    font-size: 65px;
   }
 
   .img {
